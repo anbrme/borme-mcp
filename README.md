@@ -4,7 +4,7 @@ A hosted, **read-only**, **anonymous** [Model Context Protocol](https://modelcon
 server that gives AI agents access to the Spanish company registry.
 
 It exposes data derived from the official **BORME** (Boletín Oficial del Registro
-Mercantil / Registro Mercantil) — **~3.1M companies and ~9.4M filings since 2009** —
+Mercantil / Registro Mercantil) — **~3.2M companies and ~9.4M filings since 2009** —
 so an assistant can search companies and directors and explore corporate
 relationships directly.
 
