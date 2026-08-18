@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "es.mapasocietario/borme",
+  "title": "Mapa Societario — Spanish Company Registry (BORME)",
+  "description": "Search Spanish companies and directors from the official BORME registry and map their links.",
+  "version": "1.0.0",
+  "websiteUrl": "https://mapasocietario.es",
+  "repository": {
+    "url": "https://github.com/anbrme/borme-mcp",
+    "source": "github",
+    "id": "1284233934"
+  },
+  "icons": [
+    {
+      "src": "https://mapasocietario.es/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mapasocietario.es/mcp"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ A hosted, **read-only**, **anonymous** [Model Context Protocol](https://modelcon
 server that gives AI agents access to the Spanish company registry.
 
 It exposes data derived from the official **BORME** (Boletín Oficial del Registro
-Mercantil / Registro Mercantil) — **~3.2M companies and ~9.4M filings since 2009** —
+Mercantil / Registro Mercantil) — **~3.1M companies and ~9.4M filings since 2009** —
 so an assistant can search companies and directors and explore corporate
 relationships directly.
 
@@ -43,6 +43,16 @@ https://mcp.mapasocietario.es/mcp
 ```
 
 Health check: `curl -s https://mcp.mapasocietario.es/health` → `ok`.
+
+## Registry listings
+
+This server is published to the official
+[MCP Registry](https://registry.modelcontextprotocol.io) as
+**`es.mapasocietario/borme`** (see [`server.json`](server.json)), under a
+DNS-verified `mapasocietario.es` namespace.
+
+Machine-readable site metadata for AI agents is published at
+[mapasocietario.es/llms.txt](https://mapasocietario.es/llms.txt).
 
 ## Data & limitations
 
