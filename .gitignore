@@ -1,0 +1,3 @@
+# MCP Registry DNS-auth private keys — never commit
+key.pem
+*.pem
